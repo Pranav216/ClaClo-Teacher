@@ -14,7 +14,11 @@ router.post('/post', async (req, res) => {
         description: req.body.description,
         type: req.body.type,
         dueDate: req.body.dueDate,
-        totalScore: req.body.totalScore
+        Grades: req.body.Grades,
+        course_id: req.body.course_id,
+        course_name: req.body.course_name,
+        student_id: req.body.student_id,
+        Feedback: req.body.Feedback
         // ... other fields
       })
 

@@ -13,7 +13,9 @@ router.post('/post', async (req, res) => {
         class: req.body.class,
         section: req.body.section,
         studentCount: req.body.studentCount,
-        teacherName: req.body.teacherName
+        teacherName: req.body.teacherName,
+        week: req.body.week,
+        schedule: req.body.schedule
     })
 
     try {
